@@ -8,7 +8,7 @@ public class rotationCountString {
         String two = "defghabc";
         
         String concat = one+one;
-        
+        //abcdefghabcdefgh
         
         if(one.length()==two.length()) {
         	int index = concat.indexOf(two);
