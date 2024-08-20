@@ -29,6 +29,7 @@ public class BeginArrayList {
 		System.out.println(names.toString());
 		
 		
+		newfrnds.add("yoyo");
 		newfrnds.set(0, "swapnil");
 		System.out.println(newfrnds.get(0));
 
