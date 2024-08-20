@@ -28,7 +28,7 @@ public class consecutiveStringCounter {
 				
 			}
 			
-			System.out.print(name.charAt(i)+""+counter);	
+			System.out.print(name.charAt(i)+":"+counter+" ");	
 			
 		}
 		
