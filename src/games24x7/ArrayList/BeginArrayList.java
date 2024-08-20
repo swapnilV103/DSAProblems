@@ -32,6 +32,7 @@ public class BeginArrayList {
 		newfrnds.set(0, "swapnil");
 		System.out.println(newfrnds.get(0));
 
+		
 	}
 
 }
