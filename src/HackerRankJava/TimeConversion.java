@@ -16,6 +16,8 @@ class Result {
     //String hour = s.substring(0,2);
     String name = "8";
     int myName = Integer.parseInt(name);
+    Integer.valueOf(name);
+    String.valueOf(myName);
     //System.out.println(myName);
     int hour = Integer.parseInt(s.substring(0,2));
     String minute = s.substring(3,5);
@@ -23,7 +25,7 @@ class Result {
     
     if(period.equals("AM")){
         if(hour==12){
-            hour=0;
+            hour=00;
             
         }
     }
@@ -35,7 +37,7 @@ class Result {
     
     
     String hourFormatted = String.format("%02d", hour);
-    
+    //return String.valueOf(hour)+":"+minute+":"+second;
     return hourFormatted+":"+minute+":"+second;
     
     }
