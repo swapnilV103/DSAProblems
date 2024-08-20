@@ -54,9 +54,15 @@ public class inherit {
 		tab.put("swapnil", 4);
 		tab.put("onmi", 5);
 		
+		
+		
 		System.out.println(tab.containsKey("onmi"));
 		tab.size();
+		s1.size();
 		System.out.println(map);
+		
+		System.out.println(tab.getOrDefault("swapnil",null ));
+
 
 	}
 
