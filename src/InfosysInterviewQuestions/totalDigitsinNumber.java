@@ -29,7 +29,7 @@ public class totalDigitsinNumber {
 		
 		int digits = result(number);
 		System.out.print(digits);
-		System.out.print(len.length());
+		System.out.println(len.length());
 		
 
 	}
