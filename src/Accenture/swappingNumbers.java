@@ -17,6 +17,7 @@ public class swappingNumbers {
 		temp=c;
 		c=d;
 		d=temp;
+		
 		System.out.print("A is:"+a+"   B is: "+b);
 		System.out.print("c is:"+c+"   d is: "+d);
 		
