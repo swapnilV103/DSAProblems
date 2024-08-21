@@ -63,6 +63,8 @@ public class inherit {
 		
 		System.out.println(tab.getOrDefault("swapnil",null ));
 
+		
+		
 
 	}
 
