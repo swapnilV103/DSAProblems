@@ -1,6 +1,7 @@
 package SaishQuestions;
 
 import java.util.Arrays;
+import java.util.HashMap;
 import java.util.HashSet;
 
 public class arraySamedigitCount {
@@ -9,7 +10,7 @@ public class arraySamedigitCount {
 		// TODO Auto-generated method stub
 		Integer[] array1 = {4,4,5,5,6,6,7,2,4,7,6,4};
 		String one = Arrays.toString(array1);
-		System.out.print(one);
+		System.out.println(one);
 		
 		HashSet<Integer> hash = new HashSet<Integer>(Arrays.asList(array1));
 		HashSet<Integer> hash1 = new HashSet<Integer>(Arrays.asList(array1));
@@ -17,8 +18,22 @@ public class arraySamedigitCount {
 			hash1.add(s);
 		}
 		
-		System.out.print(hash);
-		System.out.print(hash1);
+		HashMap<Integer,Integer> map = new HashMap<>();
+		
+		for(int p: array1) {
+			if(map.containsKey(p)) {
+				
+				map.put(p, map.get(p)+1);
+			}
+			else {
+				map.put(p, 1);
+			}
+		}
+		
+				
+		//System.out.print(hash);
+		//System.out.print(hash1);
+		System.out.println(map);
 
 	}
 
