@@ -18,8 +18,7 @@ public class reverseString {
 		
 		String reverse = "";
 		char ch;
-		
-		
+				
 		for(int i=0;i<name.length();i++) {
 			ch = name.charAt(i);
 			
