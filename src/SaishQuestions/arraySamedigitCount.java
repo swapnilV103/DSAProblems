@@ -15,7 +15,7 @@ public class arraySamedigitCount {
 			if(map.containsKey(p)) {
 				
 				map.put(p, map.get(p)+1);
-			}
+			} 
 			else {
 				map.put(p, 1);
 			}
