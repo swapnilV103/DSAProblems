@@ -11,7 +11,12 @@ public class arraySamedigitCount {
 		String one = Arrays.toString(array1);
 		System.out.print(one);
 		
-		HashSet<String> hash = new HashSet<>();
+		HashSet<Integer> hash = new HashSet<>();
+		for(int s:array1) {
+			hash.add(s);
+		}
+		
+		System.out.print(hash);
 		
 
 	}
