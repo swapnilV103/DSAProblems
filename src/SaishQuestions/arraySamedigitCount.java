@@ -19,6 +19,7 @@ public class arraySamedigitCount {
 			else {
 				map.put(p, 1);
 			}
+			
 		}
 		
 				
