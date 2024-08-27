@@ -8,7 +8,7 @@ public class BeginArrayList {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		String[] names = {"swapy","sush","onkar"};
+		String names[] = {"swapy","sush","onkar"};
 		int n = 0;
 		String[] frinds = new String[4];
 		
