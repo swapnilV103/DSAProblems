@@ -13,7 +13,7 @@ public class wordMaker {
 		
 		
 		HashMap <Character,Integer> map1 = new HashMap<>();
-		ArrayList<String> name = new ArrayList<>(Arrays.asList("arura","ford","ferrari","honda","nissan","datsun"));
+		ArrayList<String> name = new ArrayList<>(Arrays.asList("arura","ford","ferrari","honda","yoyo","nissan","datsun"));
 
 		for(char a: arr) {
 			if(map1.containsKey(a)) {
@@ -28,13 +28,14 @@ public class wordMaker {
 		for(String word:name) {
 			
 			char[] wordChar = word.toCharArray();
-			
+			 
 			for(char a:wordChar) {
 				if(map1.containsKey(a)) {
 					map1.put(a,map1.get(a)-1);
 				}
 				else {
 					System.out.println("The Word "+word+" cannot be printed");
+					break;
 				}
 				
 				
