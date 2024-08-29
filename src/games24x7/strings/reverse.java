@@ -23,6 +23,7 @@ public class reverse {
 		
 		Scanner sc = new Scanner(System.in);
 		String input = sc.nextLine();
+		char[] a=input.toCharArray();
 		
 		rev(input);
 		System.out.println(rev(input));
