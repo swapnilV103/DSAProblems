@@ -9,9 +9,11 @@ public class arraySamedigitCount {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Integer[] array1 = {4,4,5,5,6,6,7,2,4,7,6,4};
-		HashMap<Integer,Integer> map = new HashMap<>();
+		String name = "swaaapniiia  sll";
+		char[] a = name.toCharArray();
+		HashMap<Character,Integer> map = new HashMap<>();
 		
-		for(int p: array1) {
+		for(char p: a) {
 			if(map.containsKey(p)) {
 				
 				map.put(p, map.get(p)+1);
