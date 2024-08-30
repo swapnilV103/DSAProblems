@@ -10,8 +10,8 @@ public class wordMaker {
 		// TODO Auto-generated method stub
 		//System.out.print("hi");
 		ArrayList<Character> arr = new ArrayList<>(Arrays.asList('a', 'f', 'r', 'r', 'e', 'i', 'o', 'h', 'c', 's', 'u', 'w', 'a', 'n', 'd'));
-		
-		
+
+
 		HashMap <Character,Integer> map1 = new HashMap<>();
 		ArrayList<String> name = new ArrayList<>(Arrays.asList("arura","ford","ferrari","honda","yoyo","swapy","nissan","datsun"));
 
@@ -19,15 +19,16 @@ public class wordMaker {
 			if(map1.containsKey(a)) {
 				map1.put(a, map1.get(a)+1);
 			}
-			else {
+			else 
+			{
 				map1.put(a, 1);
 			}	
 		}
-		
+
 		for(String word:name) {
-			
+
 			char[] wordChar = word.toCharArray();
-			 
+
 			for(char a:wordChar) {
 				if(map1.containsKey(a)) {
 					map1.put(a,map1.get(a)-1);
