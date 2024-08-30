@@ -24,7 +24,6 @@ public class wordMaker {
 			}	
 		}
 		
-		
 		for(String word:name) {
 			
 			char[] wordChar = word.toCharArray();
@@ -37,21 +36,8 @@ public class wordMaker {
 					System.out.println("The Word "+word+" cannot be printed");
 					break;
 				}
-				
-				
 			}
-			
-		}
-		
-		
-		
-		
-		
-		
-		
+		}	
 		//System.out.println(map1);
-
-
 	}
-
 }
