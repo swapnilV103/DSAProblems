@@ -48,7 +48,7 @@ public class CalendarRaa {
             daysInMonth--; // Remove day from Du every 11 years
         }
 
-        System.out.println("Month: " + monthName + " Year: " + year);
+        System.out.println( monthName +" " + year);
         System.out.println("Za Xo Cu Vo Bi Ne Ma Lu Ki"); // Days of the week header
 
         int currentDayOfWeek = 0; // Start from "Za"
@@ -63,6 +63,7 @@ public class CalendarRaa {
         if (currentDayOfWeek != 0) {
             System.out.println();
         }
+        System.out.println("===================================");
     }
 }
  
