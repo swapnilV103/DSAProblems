@@ -22,12 +22,21 @@ public class largestIntegerInArray {
 		System.out.println(hash);
 		int b=0,temp = 0;
 		for(int a :arr1) {
+			
 			if(a>b) {
-				temp=a;
+				//temp=a;
+				b=a;
+				
 			}
-			b=a;
+			
+			
 		}
-		System.out.print(temp);
+		System.out.print(b);
+		
+
+		
+		
+		
 		
 
 	}
