@@ -23,6 +23,7 @@ public class BeginArrayList {
 		newfrnds.add("Chetan");
 		System.out.println(newfrnds);
 		
+		
 		for(String s: names) {
 			System.out.print(s+" ");
 		}
@@ -33,7 +34,8 @@ public class BeginArrayList {
 		newfrnds.set(0, "swapnil");
 		System.out.println(newfrnds.get(0));
 
-		
+		System.out.println(Arrays.toString(names));
+
 	}
 
 }
