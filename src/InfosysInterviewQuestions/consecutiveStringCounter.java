@@ -1,5 +1,6 @@
 package InfosysInterviewQuestions;
 
+import java.util.HashMap;
 import java.util.Scanner;
 
 public class consecutiveStringCounter {
@@ -28,10 +29,30 @@ public class consecutiveStringCounter {
 				
 			}
 			
-			System.out.print(name.charAt(i)+":"+counter+" ");	
+			System.out.println(name.charAt(i)+":"+counter+" ");	
 			
 		}
 		
+
+		HashMap<Character,Integer> map = new HashMap();
+		
+		char[] namechar = name.toCharArray();
+		
+		for(char a : namechar) {
+			if(map.containsKey(a)) {
+				
+				map.put(a, map.get(a)+1);
+				
+			}else {
+				map.put(a, 1);
+			}
+			
+		}
+		
+		System.out.println(map);
+		
 	}
+	
+	
 
 }
