@@ -21,6 +21,8 @@ class toyotaCorella extends toyota{
 		System.out.println("toyotaCorella is stopping");		
 	}	
 }
+
+
 class fiat implements car{
 	@Override
 	public void run() {
@@ -34,6 +36,9 @@ class fiat implements car{
 		System.out.println("fiat is stopping");		
 		}
 	}
+
+
+
 public class inheritance {
 
 	public static void main(String[] args) {
