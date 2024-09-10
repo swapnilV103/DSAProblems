@@ -9,6 +9,10 @@ public class removeDupliacteArrayList {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
+		Integer[] array = new Integer[]{1,3,4,5};
+		ArrayList<Integer> arr2 = new ArrayList<>(Arrays.asList(array));
+		System.out.println(arr2);
+
 		ArrayList<Integer> arr = new ArrayList<>(Arrays.asList(1,2,3,4,5,3,2));
 		System.out.println(arr);
 		
