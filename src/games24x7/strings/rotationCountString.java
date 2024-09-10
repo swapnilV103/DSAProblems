@@ -16,6 +16,10 @@ public class rotationCountString {
         	if(index!=-1) {
         		System.out.print("Yes it's rotated and valuw is : "+index);
         	}
+        	else {
+        		System.out.print("no");
+
+        	}
         	
         }
        
