@@ -3,6 +3,7 @@ package games24x7.ArrayList;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collection;
+import java.util.List;
 
 public class BeginArrayList {
 
@@ -11,7 +12,6 @@ public class BeginArrayList {
 		String names[] = {"swapy","sush","onkar"};
 		int n = 0;
 		String[] frinds = new String[4];
-		
 		
 		ArrayList<String> frandList = new ArrayList<>();
 		ArrayList<String> newfrnds = 
