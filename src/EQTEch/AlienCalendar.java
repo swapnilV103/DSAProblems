@@ -7,7 +7,7 @@ public class AlienCalendar {
     static final int[] DAYS_IN_MONTH = {36, 39, 26, 29, 31, 29, 33, 34, 35, 27, 43};
     
     public static void main(String[] args) {
-        PrintNMonths(2717, 9, 4);
+        PrintNMonths(27, 2, 1);
     }
     
     public static void PrintNMonths(int startYear, int startMonth, int numberOfMonths) {
