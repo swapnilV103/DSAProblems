@@ -14,7 +14,7 @@ static int a;
 
 
   public static void main(String[] args){
-     PrintNMonths(27, 2, 10);
+     PrintNMonths(27, 2, 13);
 
   }
 
@@ -104,16 +104,14 @@ static int a;
 	   for(int i=0;i<=9-currentDayOfWeek;i++) {
 		   System.out.print("|    ");
 	   }
-	   
+	   System.out.println();
+	   printMonthSeparator();
+	  
    }
   
    
    
-        if (currentDayOfWeek != 0) {
-           System.out.print("");
-           System.out.println(); 
-           printMonthSeparator();
-        }
+      
         System.out.println();
         System.out.println("=============================================");
         System.out.println();
