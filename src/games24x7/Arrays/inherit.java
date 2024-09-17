@@ -21,6 +21,10 @@ class toyota implements car{
 	
 }
 
+abstract class one implements car{
+	
+}
+
 
 class animal{
 	
@@ -38,6 +42,7 @@ public class inherit {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		dog dog1 = new dog();
+		
 		
 		//Important
 		car myCar = new toyota();
