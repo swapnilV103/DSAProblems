@@ -23,6 +23,8 @@ public static int result(int number) {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
+		char a ='1';
+		Integer.parseInt(String.valueOf(a));
 		Scanner sc = new Scanner(System.in);
 		int number = sc.nextInt();
 		int result = result(number);
