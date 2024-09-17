@@ -11,15 +11,17 @@ public class swappingNumbers {
 		int d=5;
 		int temp;
 		a= a^b;
+		System.out.println("A is:"+a);
 		b=a^b;
+		System.out.println("B is:"+b);
 		a=a^b;
 		
 		temp=c;
 		c=d;
 		d=temp;
 		
-		System.out.print("A is:"+a+"    B is: "+b);
-		System.out.print("c is:"+c+"   d is: "+d);
+		System.out.println("A is:"+a+"    B is: "+b);
+		System.out.println("c is:"+c+"   d is: "+d);
 		
 		
 
