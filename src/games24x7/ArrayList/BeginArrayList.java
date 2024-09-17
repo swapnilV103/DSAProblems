@@ -14,10 +14,12 @@ public class BeginArrayList {
 		String[] frinds = new String[4];
 		
 		ArrayList<String> frandList = new ArrayList<>();
-		ArrayList<String> newfrnds = 
-				new ArrayList<>(Arrays.asList("Swapy","saish","onkar","ram"));
+		ArrayList<String> newfrnds  = new ArrayList<>(Arrays.asList("Swapy","saish","onkar","ram"));
+		
 		System.out.println(newfrnds.size());
 		System.out.println(names.length);
+		
+		frandList.add("");
 		
 		//cant; add items in array
 		newfrnds.add("Chetan");
