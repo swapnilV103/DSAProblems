@@ -111,7 +111,7 @@ public class eqtechAlienCalandarSaish {
         setMonthDaysAndWeek();
         System.out.println(monthDayshm);
         System.out.println(weekNumber);
-        PrintNMonths(2717,9,4);
+        PrintNMonths(2723, 2, 1);
     }
 
     public static void PrintNMonths(int startYear,int startMonth, int noOfMonths){
