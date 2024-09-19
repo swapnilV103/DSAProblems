@@ -39,11 +39,11 @@ public class consecutiveStringCounter {
 		char[] namechar = name.toCharArray();
 		
 		for(char a : namechar) {
-			if(map.containsKey(a)) {
+			if(map.containsKey(a) && a!=' ') {
 				
 				map.put(a, map.get(a)+1);
 				
-			}else {
+			}else if(a!=' ') {
 				map.put(a, 1);
 			}
 			
