@@ -1,4 +1,5 @@
 package oops;
+
 interface car{
 	void run();
 	void stop();
