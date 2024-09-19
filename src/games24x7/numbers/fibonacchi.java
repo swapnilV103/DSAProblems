@@ -6,6 +6,12 @@ public class fibonacchi {
 		// TODO Auto-generated method stub
 		int num = 10;
 		fibo(num);
+		int a;
+		a=5;
+		a=10;
+		System.out.println(a);
+
+		
 		
 
 	}
