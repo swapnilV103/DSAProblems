@@ -12,6 +12,7 @@ public class actualMultiplicationOfNumbersinString {
         
         char[] newname = name.toCharArray();
         
+        
         StringBuilder result = new StringBuilder();
         StringBuffer res = new StringBuffer();
         String result1;
