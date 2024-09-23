@@ -8,8 +8,9 @@ public class fibonacciSeries {
 		int sum =0;
 		
 		while(sum<20) {
-			sum=sum+num2;
-			System.out.print(sum+" ");
+			System.out.print(num1+" ");
+			sum=num1+num2;
+			num1=num2;
 			num2=sum;
 		}
 		
