@@ -16,7 +16,9 @@ public class removeDupliacteArrayList {
 		ArrayList<Integer> arr = new ArrayList<>(Arrays.asList(1,2,3,4,5,3,2));
 		System.out.println(arr);
 		
-		HashSet s = new HashSet(arr);
+		
+		HashSet<Integer> s = new HashSet<Integer>(arr);
+		
 		Set<Integer> hash1 = new HashSet<>(arr);
 		
 		Set<Integer> hash = new HashSet<>();
