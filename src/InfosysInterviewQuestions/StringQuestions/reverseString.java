@@ -10,7 +10,7 @@ public class reverseString {
 		String name = scanner.nextLine();
 		
 		System.out.println(reverse(name));
-		
+	
 
 	}
 	
