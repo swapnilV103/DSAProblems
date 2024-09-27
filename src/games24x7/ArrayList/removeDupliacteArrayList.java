@@ -24,6 +24,7 @@ public class removeDupliacteArrayList {
 		Set<Integer> hash = new HashSet<>();
 		
 		
+		
 		for(Integer a : arr) {
 			hash.add(a);
 		}
