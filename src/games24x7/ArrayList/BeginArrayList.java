@@ -19,6 +19,7 @@ public class BeginArrayList {
 		System.out.println(newfrnds.size());
 		System.out.println(names.length);
 		
+		
 		frandList.add("");
 		
 		//cant; add items in array
