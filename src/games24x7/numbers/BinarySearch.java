@@ -1,5 +1,7 @@
 package games24x7.numbers;
 
+import java.util.Arrays;
+
 public class BinarySearch {
 
 	public static void main(String[] args) {
@@ -7,6 +9,7 @@ public class BinarySearch {
 		int[] array = {1,2,4,5,7,9,10,11};
 		int num =9;
 		int result = binarysea(array,num);
+		
 		
 		if(result==-1) {
 			System.out.print("not present");
