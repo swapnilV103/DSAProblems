@@ -23,6 +23,7 @@ class toyota implements car{
 
 abstract class one implements car{
 	
+	
 }
 
 
