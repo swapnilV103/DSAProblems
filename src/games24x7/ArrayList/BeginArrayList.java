@@ -13,7 +13,8 @@ public class BeginArrayList {
 		int n = 0;
 		String[] frinds = new String[4];
 		
-		ArrayList<String> frandList = new ArrayList<>();
+		ArrayList<String> frandList = new ArrayList<>(Arrays.asList(names));
+		System.out.println(frandList);
 		ArrayList<String> newfrnds  = new ArrayList<>(Arrays.asList("Swapy","saish","onkar","ram"));
 		
 		System.out.println(newfrnds.size());
