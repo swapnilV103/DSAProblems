@@ -12,7 +12,7 @@ public class reverseStringloop {
 		
 		System.out.print(reverseString(rev));  
 		
-
+		
 	}
 	
 	public static String reverseString(String rev) {
