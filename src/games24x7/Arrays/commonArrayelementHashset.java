@@ -11,7 +11,19 @@ public class commonArrayelementHashset {
 		int[] Array2 = {3,4,5,6,7};
 
 		HashSet <Integer> common = findcommonElement(Array1,Array2);
-		System.out.print(common);
+		System.out.println(common);
+		HashSet<Integer> random = new HashSet<>();
+		
+		for(int a :Array1) {
+			for(int b:Array2) {
+				if(a==b) {
+					random.add(a);
+				}
+			}
+		}
+		
+		System.out.println(random);
+		
 
 	}
 
