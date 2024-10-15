@@ -14,7 +14,7 @@ public class numberAddition {
 					
 					if(sum==b) {
 						System.out.print(i+"+"+k+"+");
-						System.out.print(j+"=8 ");
+						System.out.println(j+"=8 ");
 					}
 				}
 				
