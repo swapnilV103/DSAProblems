@@ -7,6 +7,7 @@ public class BinarySearch {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		int[] array = {1,2,4,5,7,9,10,11};
+		
 		int num =9;
 		int result = binarysea(array,num);
 		
