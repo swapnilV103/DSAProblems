@@ -10,6 +10,7 @@ public class BeginArrayList {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		String names[] = {"swapy","sush","onkar"};
+		int[] arr= {1,2,3};
 		int n = 0;
 		String[] frinds = new String[4];
 		
@@ -38,6 +39,7 @@ public class BeginArrayList {
 		newfrnds.set(0, "swapnil");
 		System.out.println(newfrnds.get(0));
 		System.out.println(Arrays.toString(names));
+		System.out.println(Arrays.toString(arr));
 
 	}
 

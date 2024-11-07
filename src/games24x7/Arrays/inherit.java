@@ -62,7 +62,7 @@ public class inherit {
 		tab.put("onmi", 5);
 		
 		
-		
+		map.size();
 		System.out.println(tab.containsKey("onmi"));
 		tab.size();
 		s1.size();

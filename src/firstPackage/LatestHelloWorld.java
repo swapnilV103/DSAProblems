@@ -33,6 +33,7 @@ class LatestHelloWorld {
 		// unboxing because get method returns an Integer
 		// object
 		int num = arrayList.get(0);
+	
 
 		// printing the values from primitive data types
 		System.out.println(num);
