@@ -6,7 +6,7 @@ public class CheckPlindrome {
 		// TODO Auto-generated method stub
 		
 		String name = "asa";
-		
+
 		int left = 0;
 		int right = name.length()-1;
 		boolean status =false;
