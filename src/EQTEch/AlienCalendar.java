@@ -101,6 +101,7 @@ public class AlienCalendar {
                 dayOfWeek = 0;
             }
         }
+
         
         if (dayOfWeek != 0) {
             while (dayOfWeek < DAYS.length) {
