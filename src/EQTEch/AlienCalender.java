@@ -14,7 +14,7 @@ static int a;
 
 
   public static void main(String[] args){
-     PrintNMonths(27, 2, 13);
+     PrintNMonths(27, 2, 3);
 
   }
 
