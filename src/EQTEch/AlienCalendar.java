@@ -5,13 +5,20 @@ public class AlienCalendar {
     static final String[] DAYS = {"Za", "Xo", "Cu", "Vo", "Bi", "Ne", "Ma", "Lu", "Ki"};
     static final String[] MONTHS = {"Ra", "Ta", "Ut", "Ip", "Ok", "Py", "Ar", "Sy", "Du", "Fi", "Gr"};
     static final int[] DAYS_IN_MONTH = {36, 39, 26, 29, 31, 29, 33, 34, 35, 27, 43};
-    
+    static int a;
+
+
     public static void main(String[] args) {
-        PrintNMonths(27, 2, 1);
+        PrintNMonths(27, 2, 3);
     }
-    
+
+
+
+
+
     public static void PrintNMonths(int startYear, int startMonth, int numberOfMonths) {
         int monthIndex = startMonth - 1;
+
         for (int i = 0; i < numberOfMonths; i++) {
             int year = startYear;
             if (monthIndex >= 11) {
@@ -22,7 +29,11 @@ public class AlienCalendar {
             monthIndex++;
         }
     }
-    
+
+
+
+
+
     public static void PrintMonth(int year, int monthIndex) {
         String monthName = MONTHS[monthIndex];
         int daysInMonth = getDaysInMonth(monthIndex, year);
@@ -33,11 +44,15 @@ public class AlienCalendar {
         printMonthDays(startDay, daysInMonth);
         System.out.println("===================================");
     }
-    
+
+
+
+
+
     public static void printMonthHeader() {
         System.out.print("+");
         for (int i = 0; i < DAYS.length; i++) {
-            System.out.print("---+");
+            System.out.print("----+");
         }
         System.out.println();
         
@@ -49,13 +64,18 @@ public class AlienCalendar {
         
         System.out.print("+");
         for (int i = 0; i < DAYS.length; i++) {
-            System.out.print("---+");
+            System.out.print("----+");
         }
         System.out.println();
     }
-    
+
+
+
+
+
+
     public static void printMonthDays(int startDay, int daysInMonth) {
-        int currentDay = 1;
+        int currentDay = 4;
         int dayOfWeek = startDay;
         
         System.out.print("|");
@@ -64,6 +84,7 @@ public class AlienCalendar {
         }
         
         while (currentDay <= daysInMonth) {
+            currentDay=a;
             System.out.printf(" %2d |", currentDay);
             currentDay++;
             dayOfWeek++;
@@ -71,7 +92,7 @@ public class AlienCalendar {
                 System.out.println();
                 System.out.print("+");
                 for (int i = 0; i < DAYS.length; i++) {
-                    System.out.print("---+");
+                    System.out.print("----+");
                 }
                 System.out.println();
                 if (currentDay <= daysInMonth) {
@@ -88,13 +109,21 @@ public class AlienCalendar {
             }
             System.out.println();
             System.out.print("+");
+
             for (int i = 0; i < DAYS.length; i++) {
-                System.out.print("---+");
+                System.out.print("----+");
             }
             System.out.println();
         }
+        a=currentDay;
     }
-    
+
+
+
+
+
+
+
     public static int getDaysInMonth(int monthIndex, int year) {
         int days = DAYS_IN_MONTH[monthIndex];
         if (monthIndex == 8 && isLeapYear(year)) {
@@ -105,19 +134,28 @@ public class AlienCalendar {
         }
         return days;
     }
-    
+
+
+
+
+
+
     public static boolean isLeapYear(int year) {
         return (year + 1) % 11 == 0;
     }
+
+
     
     public static boolean isSpecialYear(int year) {
         int monthCount = (year * 11) + 1;
         return monthCount % 297 == 0;
     }
-    
+
+
+
     public static int MonthStartsOn(int monthNum, int yr) {
         // This function is assumed to be provided as per the instructions.
         // Just a placeholder for reference.
-        return 0;  // Replace with the actual implementation logic
+        return 4;  // Replace with the actual implementation logic
     }
 }
