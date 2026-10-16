@@ -26,6 +26,7 @@ public class reverseANumber {
 		// TODO Auto-generated method stub
 		Scanner sc = new Scanner(System.in);
 		int number = sc.nextInt();
+
 		
 		int result = result(number);
 		

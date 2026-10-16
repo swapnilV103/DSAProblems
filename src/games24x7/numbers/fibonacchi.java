@@ -9,7 +9,7 @@ public class fibonacchi {
 		int a;
 		a=5;
 		a=10;
-		System.out.println(a);
+		//System.out.println(a);
 
 		
 		
@@ -21,7 +21,7 @@ public class fibonacchi {
 		int num2= 1;
 		int num1 = 0;
 		
-		for(int i=0;i<=num;i++) {
+		for(int i=0;i<num;i++) {
 			System.out.print(num1+" ");
 			int next=num1+num2;
 			num1=num2;

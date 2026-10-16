@@ -22,6 +22,8 @@ public class StringRotationAlternative {
 			if(Arrays.equals(arrOne, arrTwo)) {
 				System.out.print("hiiiiiiiiii");
 				
+			}else{
+				System.out.println("no");
 			}
 		}
 		
