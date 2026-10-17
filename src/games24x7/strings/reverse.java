@@ -33,11 +33,6 @@ public class reverse {
 		System.out.println(var.rev1("swapy"));
 
 	}
-	
-	
-	
-	
-
 }
 
 class oneof{

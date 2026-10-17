@@ -11,9 +11,6 @@ public class fibonacchi {
 		a=10;
 		//System.out.println(a);
 
-		
-		
-
 	}
 
 	public static void fibo(int num) {

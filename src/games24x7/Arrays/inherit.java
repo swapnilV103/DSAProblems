@@ -26,6 +26,9 @@ abstract class one implements car{
 	
 }
 
+abstract class three implements car{
+
+}
 
 class animal{
 	
@@ -48,7 +51,7 @@ public class inherit {
 		//Important
 		car myCar = new toyota();
 		
-		
+		/* 
 		HashMap<String, Integer> map = new HashMap<String, Integer>();
 		Hashtable<String, Integer> tab = new Hashtable<String, Integer>();
 		Set<Object> s1 = new HashSet<Object>();
@@ -71,7 +74,7 @@ public class inherit {
 		System.out.println(tab.getOrDefault("swapnil",null ));
 
 		
-		
+		*/
 
 	}
 
